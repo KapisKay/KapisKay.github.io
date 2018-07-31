@@ -12,7 +12,7 @@ body{
 	color: green;
 }
 .jumbotron{
-	background-image: url(../images/GarbageTrucks.jpg);
+	background-image: url(GarbageTrucks.jpg);
 	background-size: cover;
 	color: white;
 	margin: 0;
