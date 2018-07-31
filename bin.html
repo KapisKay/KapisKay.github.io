@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get a bin</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="../css/bin.css">
+</head>
+<body>
+		<nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+			<div class="navbar-brand" ><img src="../images/logo.png" height="35em" width="35em">
+			Smart Dump</div>
+
+
+			<div class="menu">
+			<ul class="nav justify-content-end">	
+				<li class="nav-item"><a href="home.html" class="nav-link"><i class="fa fa-home"></i>&nbspHome</a></li>
+			</ul>
+			</div>	
+			</div>	
+		</nav>
+		<div class="row">
+			<div class="col-lg-5">
+				<div class="freeb">
+			<p id="freeb" class="text-center">Receive Gifts While You Recycle</p>
+				</div>
+
+			</div>
+			
+			<div class="col-lg-6">
+				<div class="frm" style="padding-bottom: 4em;">
+				<h3 class="text-center">Get a Recycle Bin</h3>
+				<p>Please fill out all sections of this form to send your request</p>
+				<form action="#" name="myForm" onsubmit="return(validate());">
+					<div class="input-form-group mb-3">
+  						<div class="input-group-prepend">
+    						<span class="input-group-text" id="basic-addon1"><span class="fa fa-user"></span></span>
+ 					 <input type="text" class="form-control" placeholder="Please enter full name" aria-label="Username" aria-describedby="basic-addon1"  name="Fullname" id="Fullname">
+ 						</div>
+ 						
+					</div>
+
+					<div class="input-form-group mb-3">
+                         <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><span class="fa fa-briefcase"></span></span>
+                             <select class="form-control" id="ServiceType" name="ServiceType" onchange=foo(this)>
+                                 <option value="" selected disabled>--Select Service Type--</option>
+                                 <option value="Residential" myid=1>Residential</option>
+                                 <option value="Commercial" myid=2>Commercial</option>
+                             </select>
+                         </div>
+                     </div>
+					    <div class="input-form-group mb-3" id="commercial" name="Business">
+					    	<div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon"><span class="fa fa-briefcase"></span></span>
+                                <select class="form-control" id="business" name="Business">
+                                    <option value="" selected disabled>--Select Commercial Type--</option>
+                                    <option value="School">School</option>
+                                    <option value="Shop">Shop</option>
+                                    <option value="Market">Market</option>
+                                    <option value="Hostel">Hostel</option>
+                                    <option value="Station">Station</option>
+                                    <option value="Office">Office</option>
+                                </select>
+                            </div>
+                        </div>
+					    <div class="input-form-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon"><span class="fa fa-map-marker"></span></span>
+                                <select class="form-control" id="location" name="Location">
+                                    <option value="" selected disabled>--Select Your Location--</option>
+                                    <option value="Ashaley Botwe">Ashaley Botwe</option>
+                                    <option value="Madina">Madina</option>
+                                    <option value="Arjigano">Arjigano</option>
+                                    <option value="East-Legon">East-Legon</option>
+                                </select>
+                            </div>
+                        </div>
+					<div class="input-form-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon"><span class="fa fa-phone"></span> </span>
+                                <input type="text" class="form-control" id="Contact" name="Contact" placeholder="Enter Contact number">
+                            </div>
+                     </div>
+					<div class="input-form-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon"><span class="fa fa-envelope"></span> </span>
+                                <input type="email" class="form-control" id="EMail" name="EMail" placeholder="Please Enter Email">
+                            </div>
+                    </div>
+					<div class="clearfix">
+                            <button type="submit" class="btn btn-primary pull-right" id="submit" name="submit"> Submit &nbsp;<span class="fa fa-arrow-right"></span></button>
+                     </div>
+				</form>
+			</div>
+		</div>
+	</div>
+		
+		<div class="footer">
+		<p class="text-center">Copyright &copy Smart Dump 2018. All Rights Reserved</p>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="../js/mybin.js"></script>
+  	 <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+  	 <script type="text/javascript" src="../js/validation.min.js"></script>
+</body>
+</html>
