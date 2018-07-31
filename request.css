@@ -10,7 +10,7 @@ body{
 }
 .alert-success{
 	height: 100%;
-	background-image: url(../images/bincollection.jpg);
+	background-image: url(bincollection.jpg);
 	background-size: cover;
 	margin: 5px;
 }
